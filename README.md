@@ -19,3 +19,5 @@
 8.定时器的学习，标准库文件stm32f10x_gpio.c、stm32f10x_rcc.c、misc.c、stm32f10x_tim.c，驱动文件timer.c。
 
 9.JQ8400语音播报模块一线串口播放语音驱动添加，标准库文件stm32f10x_gpio.c、stm32f10x_rcc.c、misc.c，驱动文件jq8400.c。
+
+10.timer的PWM波学习，控制定时器信道输出PWM波，从而控制90°舵机转动，标准库文件stm32f10x_gpio.c、stm32f10x_rcc.c、stm32f10x_tim.c，驱动文件pwm.c
