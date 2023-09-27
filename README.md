@@ -25,3 +25,5 @@
 11.单总线操作控制DHT11温湿度传感器模块获取温湿度，标准库文件stm32f10x_gpio.c、stm32f10x_rcc.c、misc.c，驱动文件dht11.c。
 
 12.非连续非扫描模式的ADC模数转换，实现端口电压采集，标准库文件stm32f10x_gpio.c、stm32f10x_rcc.c、stm32f10x_adc.c，驱动文件my_adc.c。
+
+13.jq8400两线串口控制播放音频，标准库文件stm32f10x_gpio.c、stm32f10x_rcc.c、misc.c、stm32f10x_usart.c，驱动文件jq8400.c。
