@@ -13,3 +13,5 @@
 5.增加串口操作，通过中断接收数据，配备发送字符串数据的函数，标准库文件stm32f10x_gpio.c、stm32f10x_rcc.c、misc.c、stm32f10x_usart.c，驱动文件uart.c。
 
 6.软件IIC实现，操作OLED显示屏显示数字、字母，ASCII编码汉字，标准库文件stm32f10x_gpio.c、stm32f10x_rcc.c、misc.c，驱动文件delay.c、sys.c、my_iic.c、oled.c。
+
+7.单总线协议学习，操作DS18B20温度传感器采集温度数据，标准库文件stm32f10x_gpio.c、stm32f10x_rcc.c、misc.c，驱动文件ds18b20.c、delay.c、sys.c。
