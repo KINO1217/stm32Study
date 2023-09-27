@@ -17,3 +17,5 @@
 7.单总线协议学习，操作DS18B20温度传感器采集温度数据，标准库文件stm32f10x_gpio.c、stm32f10x_rcc.c、misc.c，驱动文件ds18b20.c、delay.c、sys.c。
 
 8.定时器的学习，标准库文件stm32f10x_gpio.c、stm32f10x_rcc.c、misc.c、stm32f10x_tim.c，驱动文件timer.c。
+
+9.JQ8400语音播报模块一线串口播放语音驱动添加，标准库文件stm32f10x_gpio.c、stm32f10x_rcc.c、misc.c，驱动文件jq8400.c。
