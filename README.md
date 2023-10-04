@@ -29,3 +29,5 @@
 13.jq8400两线串口控制播放音频，标准库文件stm32f10x_gpio.c、stm32f10x_rcc.c、misc.c、stm32f10x_usart.c，驱动文件jq8400.c。
 
 14.OLED通过操作内存实现画点、画线、画矩形，画图，标准库文件stm32f10x_gpio.c、stm32f10x_rcc.c、misc.c，驱动文件delay.c、sys.c、my_iic.c、oled.c。
+
+15.FreeRTOS系统移植，创建任务，并在创建的任务中实现LED灯500ms闪烁。
