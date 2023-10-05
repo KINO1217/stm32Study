@@ -223,3 +223,16 @@ void Oled_DrawPic(u8 index)
         }
     }
 }
+
+void Oled_DrawCircle(u8 x,u8 y,u8 r,u8 dis)
+{
+    float angle,rx,ry;
+    Draw_Point(x,y,dis);
+    for(int i=180;i>-180;i--){
+        angle = 1.0*i*PI/180;
+        rx = ceil(x+r*cos(angle));
+        ry = ceil(y+r*sin(angle));
+        Draw_Point((int)rx,(int)ry,dis);
+    }
+    Oled_Refresh_Ram();
+}

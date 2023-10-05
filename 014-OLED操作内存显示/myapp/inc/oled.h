@@ -6,6 +6,7 @@
 static u8 Oled_RAM[8][128]={0};
 #define DISPLAY 1
 #define UNDISPLAY 0
+#define PI 3.1415926
 
 //–¥÷∏¡Ó
 static void Write_Cmd(u8 cmd);
@@ -27,5 +28,8 @@ void Oled_DrawLine(u8 x,u8 y,u8 x1,u8 y1,u8 dis);
 void Oled_DrawRect(u8 x1,u8 y1,u8 x2,u8 y2,u8 dis);
 //ÃÓ≥‰æÿ–Œ
 void Oled_FillRect(u8 x1,u8 y1,u8 x2,u8 y2,u8 dis);
+//ª≠’’∆¨
 void Oled_DrawPic(u8 index);
+//ª≠‘≤
+void Oled_DrawCircle(u8 x,u8 y,u8 r,u8 dis);
 #endif

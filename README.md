@@ -31,3 +31,5 @@
 14.OLED通过操作内存实现画点、画线、画矩形，画图，标准库文件stm32f10x_gpio.c、stm32f10x_rcc.c、misc.c，驱动文件delay.c、sys.c、my_iic.c、oled.c。
 
 15.FreeRTOS系统移植，创建任务，并在创建的任务中实现LED灯500ms闪烁。
+
+16.驱动14 OLED操作内存增加画圆操作。
